@@ -49,5 +49,6 @@
     "unplugin-vue-components": "^0.27.4",
     "vite": "^5.3.1",
     "vue-tsc": "^2.0.21"
-  }
+  },
+  "author": "CentOS_API"
 }
