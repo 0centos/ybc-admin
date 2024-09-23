@@ -32,7 +32,9 @@
 
 3. 安装依赖：
 
-npm install
+```bash
+    npm install
+```
 
 4. 启动开发服务器：
 
