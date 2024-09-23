@@ -20,20 +20,20 @@
 
 1. 克隆项目：
 
-   ```bash
-   git clone <你的项目地址>
-   ```
+```bash
+git clone <你的项目地址>
+```
 
 2. 进入项目目录：
 
 ```bash
-    cd <项目目录>
+cd <项目目录>
 ```
 
 3. 安装依赖：
 
 ```bash
-    npm install
+npm install
 ```
 
 4. 启动开发服务器：
