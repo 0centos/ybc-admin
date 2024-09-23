@@ -50,5 +50,6 @@
     "vite": "^5.3.1",
     "vue-tsc": "^2.0.21"
   },
-  "author": "CentOS_API"
+  "author": "CentOS_API",
+  "license": "MIT"
 }

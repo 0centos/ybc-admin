@@ -42,7 +42,7 @@ npm install
 npm run serve
 ```
 
-在浏览器中访问 http://localhost:8080 进行访问。
+在浏览器中访问 http://localhost:4173 进行访问。
 
 ## 许可证
 
