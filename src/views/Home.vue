@@ -1,7 +1,6 @@
 <template>
   <div>
-    <el-col :span="12">
-      <h5 class="mb-2">Custom colors</h5>
+    <el-col :span="12" class="w-56">
       <el-menu
         active-text-color="#ffd04b"
         background-color="#545c64"
@@ -46,6 +45,8 @@
 </template>
 
 <script lang="ts" setup>
+import { Document, Menu as IconMenu, Location, Setting } from '@element-plus/icons-vue'
+
 const handleOpen = (key: string, keyPath: string[]) => {
   console.log(key, keyPath)
 }

@@ -66,6 +66,10 @@ const handleSubmit = () => {
   // 发送 POST 请求
   Axios.post('/api/login', params) // 直接在请求体中发送 JSON 数据
     .then((response) => {
+      ElMessage({
+        message: '登录成功',
+        type: 'success'
+      })
       const token = response.data.token // 获取 JWT
       localStorage.setItem('token', token) // 保存 token
       console.log('登陆成功')
@@ -74,7 +78,9 @@ const handleSubmit = () => {
     })
     .catch((error) => {
       // 登录失败，显示错误提示
-      errorMessage.value = '登录失败，请检查用户名和密码' // 更新错误信息
+      if (error.status === 403) {
+        errorMessage.value = '登录失败，请检查用户名和密码' // 更新错误信息
+      }
     })
 }
 </script>
