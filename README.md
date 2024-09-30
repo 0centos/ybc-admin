@@ -39,7 +39,7 @@ npm install
 4. 启动开发服务器：
 
 ```bash
-npm run serve
+npm run dev
 ```
 
 在浏览器中访问 http://localhost:4173 进行访问。

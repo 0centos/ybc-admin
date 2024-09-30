@@ -3,7 +3,7 @@
     <el-col :span="12" class="w-56">
       <el-menu
         active-text-color="#ffd04b"
-        background-color="#545c64"
+        background-color="#303133"
         class="el-menu-vertical-demo"
         default-active="2"
         text-color="#fff"
@@ -52,6 +52,9 @@ const handleOpen = (key: string, keyPath: string[]) => {
 }
 const handleClose = (key: string, keyPath: string[]) => {
   console.log(key, keyPath)
+}
+const Hover = (event: MouseEvent) => {
+  event.preventDefault()
 }
 </script>
 
